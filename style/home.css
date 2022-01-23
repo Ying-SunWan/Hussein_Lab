@@ -1,0 +1,14 @@
+.container {
+    overflow: hidden;
+    color: white;
+}
+  
+.centered {
+    position: absolute;
+    transform: translate(20vw, -80vh);
+}
+
+.subtitle {
+    position: absolute;
+    transform: translate(20vw, -65vh);
+}
