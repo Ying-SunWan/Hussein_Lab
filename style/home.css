@@ -3,12 +3,15 @@
     color: white;
 }
   
-.centered {
+.header {
     position: absolute;
     transform: translate(20vw, -80vh);
+    font-weight: bold;
+    font-size: 6em;
 }
 
 .subtitle {
     position: absolute;
+    font-size: 2em;
     transform: translate(20vw, -65vh);
 }
