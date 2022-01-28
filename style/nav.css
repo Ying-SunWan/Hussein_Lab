@@ -11,7 +11,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: transparent;  /*changed: was black before*/
   overflow-x: hidden;
   padding-top: 3vh;
   display: block;
