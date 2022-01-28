@@ -1,0 +1,11 @@
+.gallery {
+    float: right;
+    margin-left: 20vw;
+}
+
+.gallery img {
+    width:  45vh;
+    height: 45vh;
+    object-fit: cover;
+    padding: 10px;
+}
