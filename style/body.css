@@ -1,3 +1,11 @@
 body {
     font-family: 'Montserrat';
 }
+
+.container {
+    height: 100vh; 
+    padding-left: 15vw; 
+    padding-right: 5vw;
+    padding-top: 5vh;
+    font-size: 1.5em;
+}
