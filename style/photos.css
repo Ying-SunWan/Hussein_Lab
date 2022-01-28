@@ -1,6 +1,6 @@
 .gallery {
-    float: right;
     margin-left: 20vw;
+    display: table;
 }
 
 .gallery img {
@@ -8,4 +8,19 @@
     height: 45vh;
     object-fit: cover;
     padding: 10px;
+    margin-top: 5vh;
+}
+
+.gallery ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.gallery ul li p {
+    text-align: center;
+}
+
+.gallery ul li #name{
+    font-size: 20px;
+    font-weight: 600;
 }
