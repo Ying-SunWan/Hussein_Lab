@@ -1,17 +1,40 @@
+* {
+    font-family: 'Montserrat';
+    scroll-snap-type: y mandatory;
+}
+
 .home {
     overflow: hidden;
     color: white;
+    scroll-snap-align: start;
 }
   
-.header {
+.home header {
     position: absolute;
     transform: translate(20vw, -80vh);
     font-weight: bold;
     font-size: 6em;
 }
 
-.subtitle {
+.home subtitle {
     position: absolute;
     font-size: 2em;
     transform: translate(20vw, -65vh);
+}
+
+.home titlebox {
+    position: absolute;
+    background-color: rgba(66, 66, 66, 0.678);
+    width: 85vw;
+    height: 30vh;
+    transform: translate(15vw, -83vh);
+}
+
+.research {
+    height: 100vh; 
+    padding-left: 15vw; 
+    padding-right: 5vw;
+    padding-top: 5vh;
+    font-size: 1.5em;
+    scroll-snap-align: start;
 }
