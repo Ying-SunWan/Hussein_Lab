@@ -1,0 +1,9 @@
+.contact {
+    width: 100vw;
+    height: 25vh;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    scroll-snap-align: start;
+    padding: 0;
+}

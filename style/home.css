@@ -29,12 +29,3 @@
     height: 30vh;
     transform: translate(15vw, -83vh);
 }
-
-.research {
-    height: 100vh; 
-    padding-left: 15vw; 
-    padding-right: 5vw;
-    padding-top: 5vh;
-    font-size: 1.5em;
-    scroll-snap-align: start;
-}
