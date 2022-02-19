@@ -1,3 +1,30 @@
+.PI {
+    margin-left: 20vw;
+    display: table;
+}
+
+.PI img {
+    width:  45vh;
+    height: 45vh;
+    object-fit: cover;
+    padding: 10px;
+    margin-top: 5vh;
+}
+
+.PI ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.PI ul li p {
+    text-align: center;
+}
+
+.PI ul li #name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .gallery {
     margin-left: 20vw;
     display: table;
@@ -9,6 +36,10 @@
     object-fit: cover;
     padding: 10px;
     margin-top: 5vh;
+}
+
+.increase:hover {
+    transform: scale(1.1);
 }
 
 .gallery ul li {
@@ -23,4 +54,36 @@
 .gallery ul li #name{
     font-size: 20px;
     font-weight: 600;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.bio {
+    /* display: none; */
+    visibility: hidden;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.gallery .bio-content {
+    background-color: white;
+    color: black;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
