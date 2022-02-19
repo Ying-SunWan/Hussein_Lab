@@ -1,28 +1,43 @@
+.header {
+    background-color: black;
+    color: white;
+    width: 75vw;
+    height: 7vh;
+}
+
+.header #textheader {
+    text-align: left;
+    font-size: 3vh;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
 .PI {
     margin-left: 20vw;
-    display: table;
+    display: flex;
 }
 
 .PI img {
-    width:  45vh;
-    height: 45vh;
+    width:  55vh;
+    height: 55vh;
     object-fit: cover;
     padding: 10px;
     margin-top: 5vh;
+    margin-right: 3vh;
 }
 
-.PI ul li {
-    list-style: none;
-    display: inline-block;
+.PI .intro {
+    font-size: 1.25em;
+    padding-right: 10vh;
+    margin-top: 8vh;
+    float: right;
+    line-height: 3vh;
 }
 
-.PI ul li p {
-    text-align: center;
-}
-
-.PI ul li #name{
-    font-size: 20px;
+.PI #name{
+    font-size: 2em;
     font-weight: 600;
+    line-height: 5vh;
 }
 
 .gallery {
