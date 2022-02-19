@@ -87,3 +87,15 @@ button {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+.close {
+  color: black;
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+  padding-right: 1vw;
+}
+
+span:hover {
+    cursor: pointer;
+}
