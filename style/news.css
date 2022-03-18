@@ -9,10 +9,5 @@
 }
 
 #news p {
-    font-size: 1.3em;
     text-align: justify;
-}
-
-#news h3 {
-    padding-top: 0.5em;
 }
