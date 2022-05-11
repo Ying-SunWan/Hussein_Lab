@@ -52,7 +52,8 @@
 }
 
 .gallery {
-  margin-left: 250px;
+  text-align: center;
+  margin-left: 200px;
   display: table;
 }
 
