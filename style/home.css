@@ -38,3 +38,27 @@
     padding-left: 5%;
     margin: 0;
 }
+
+.rows {
+    padding-left: 220px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media (max-width: 800px) {
+    .rows {
+        padding-left: 10vw;
+    }
+    .column {
+        width: 100%;
+    }
+}
