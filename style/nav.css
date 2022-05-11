@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-  height: 100vh;
+  height: 110vh;
   width: 220px;
   position: fixed;
   z-index: 1;
@@ -63,6 +63,7 @@ body {
 
 @media (max-width: 800px) {
   .navbar {
+    height: 100vh;
     flex-direction: column;
     align-items: flex-start;
     width: 10vw;
@@ -99,5 +100,14 @@ body {
   .navbar.active {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 13vw;
+    height: 110vh;
   }
 }

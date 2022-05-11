@@ -13,3 +13,9 @@
         padding-left: 14vw;
     }
 }
+
+@media (max-width: 480px) {
+    .container {
+        padding-left: 17vw;
+    }
+}

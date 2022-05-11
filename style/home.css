@@ -78,4 +78,27 @@
     .contactcolumn {
         width: 45%;
     }
+
+    .titleheader {
+        width: 81vw;
+        height: 15vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .titleheader {
+        width: 81vw;
+        height: 10vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .titleheader{
+        width: 81vw;
+        height: 10vh;
+    }
+
+    .rows {
+        padding-left: 13vw;
+    }
 }
