@@ -1,9 +1,16 @@
 .contact {
-    width: 100vw;
-    height: 25vh;
+    height: 250px;
     font-size: 1em;
     background-color: black;
     color: white;
     scroll-snap-align: start;
     padding: 0;
+    margin-left: 220px;
+    overflow: hidden;
+}
+
+@media (max-width: 800px) {
+.contact{
+    margin-left: 10vw;
+}
 }

@@ -9,47 +9,65 @@
     <link rel="stylesheet" href="style/home.css">
     <link rel="stylesheet" href="style/body.css">
     <link rel="stylesheet" href="style/photos.css">
+    <link rel="stylesheet" href="style/contact.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
 
-    <script src="./script/modal.js"></script>
+    <script src="script/modal.js"></script>
+    <script src="script/nav.js" defer></script>
 </head>
 
 <body>
-    <div class="sidenav">
-        <a href="index.html" style="color: black;">Home</a>
-        <a href="team.html" style="color: black;">Team</a>
-        <a href="#" style="color: black;">Research</a>
-        <a href="#" style="color: black;">News</a>
-        <a href="#" style="color: black;">Facilities</a>
-        <a href="#" style="color: black;">Positions</a>
-        <a href="#" style="color: black;"> Outreach</a>
+    <nav class="navbar">
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="research.html">Research</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="pageheader">
+        <img src="images/lens_setup.jpg" style="width:100%; ">
+        <div class="headerimagetext"><p>TEAM</p></div>
     </div>
 
-    <div class="header">
-        <img src="images/lens_setup.jpg" style="width:100%;">
-        <div class="headerimage"><p>TEAM</p></div>
-    </div>
+
+    <!-- PRINCIPAL INVESTIGATOR -->
 
     <div class="PI">
-        <!-- PRINCIPAL INVESTIGATOR -->
         <div class="image">
             <img src="images/TeamPhotos/HusseinAE.jpg">
         </div>
-        <div class="intro">
-            <p id="name">Dr. Amina E. Hussein</p>
-            <p class="subtitle">Principal Investigator</p>
-            <br>
-            <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+
+        <p class="intro">
+            <strong style="font-size: 5vh;">Dr. Amina E. Hussein</strong> <br/>
+            <strong style="font-size: 2.5vh;">Principal Investigator</strong> <br/> <br />
+            I completed my PhD in Applied Physics at the University of Michigan, Ann Arbor in 2019, where I was a member of the
+            Gérard Mourou Center for Ultrafast Optical Science and conducted experiments using the (former) most intense laser
+            system in the world. Before that, I received a MS in Nuclear Engineering from Purdue University and a BSc in Honours
+            Physics from McGill University. I was a University of California President’s Postdoctoral Fellow in the department of
+            Physics & Astronomy at the University of California Irvine from 2019-2020 before joining the faculty of Electrical &
+            Computer Engineering as an Assistant Professor in 2020. <br /> <br />
+            In 2021, I was elected Co-Chair of the User's Committee for the largest consortium of high-power laser facilities in
+            North America, the US Department of Energy led LaserNetUS. I am also a member of the Strategic Planning Committee of the
+            highest power laser system in Canada - the Advanced Laser Light Source in Varennes, Québec. In 2021, I was elected to
+            the Executive Council of the Lawrence Livermore National Laboratory Jupiter Laser Facility Users' Group. <br /> <br />
+            Currently, I serve as a Co-Director of Outreach/Equity, Diversity, Inclusion and Decolonization for the Department of
+            Electrical and Computer Engineering at the University of Alberta and a member of the American Physical Society Women+ in
+            Plasma Physics committee. I am actively involved with University of Alberta Energy Systems Signature Area as a founding
+            member and organizer of the COP Hack: Student Engagement initiative, and a member of the Energy Systems Signature Area
+            Curriculum Committee - check out our series Exploring Energy Systems!<br /> <br />
+            I'm always excited to support student initiatives and have been a faculty mentor for the AlbertaSat student team
+            developing the Iris multispectral imager since 2020. I'm also a member of the Institute of Space Science, Exploration
+            and Technology and an active supporter of Women in Scholarship, Engineering, Science and Technology at the UofA.<br /> <br />
+        </p>
     </div>
-    <br>
-    <br>
 
     <div class="gallery">
         <ul>
@@ -135,6 +153,62 @@
             <br>
             <br>
             <br>
+            
+
+            <!-- Masters -->
+            <li>
+                <div class="title">
+                    <p id="textheader">MSc</p>
+                </div>
+            </li>
+        <li>
+            <button onClick="popoutbio(this);" id="3">
+                <img src="images/TeamPhotos/CarltonKim.jpg" class="increase">
+                <p id="name">Carlton Kim</p>
+                <p>MSc, Physics</p>
+            </button>
+            <br>
+            <div class="bio" id="3">
+                <div class="bio-content">
+                    <img src="images/TeamPhotos/CarltonKim.jpg">
+                    <p>Master’s student under both Professor Amina Hussein and Professor Richard Sydora in the Fall of 21. My
+                        undergraduate
+                        work involved Particle-in-Cell simulations of laser wakefield acceleration in a high-density/low-energy
+                        regime. Aside
+                        from the enjoyable work of research and school in general, I am completely addicted to gaming but also
+                        do boxing and
+                        judo.</p>
+                    <span class="close" onClick="exit();">&times;</span>
+                </div>
+            </div>
+        </li>
+        
+        
+        <li>
+            <button onClick="popoutbio(this);" id="4">
+                <img src="images/TeamPhotos/AranMcDowell.jpg" class="increase">
+                <p id="name">Aran McDowel</p>
+                <p>MSc, Physics</p>
+            </button>
+            <br>
+            <div class="bio" id="4">
+                <div class="bio-content">
+                    <img src="images/TeamPhotos/AranMcDowell.jpg">
+                    <p>I am currently working on the THz Spectroscopy of LIBS plasma plumes and am supervised by Dr. Amina
+                        Hussein, in addition
+                        to Dr. Frank Hegmann. Before I joined the lab I completed my BSc in Honours Physics at the University of
+                        Calgary. My
+                        research interests include laser-matter interactions and communications. My hobbies include cooking,
+                        sketching, and
+                        amateur writing.</p>
+                    <span class="close" onClick="exit();">&times;</span>
+                </div>
+            </div>
+            </li>
+
+            <br>
+            <br>
+            <br>
 
             <!-- UNDERGRADS -->
             <li>
@@ -143,13 +217,13 @@
                 </div>
             </li>
             <li>
-                <button onClick="popoutbio(this);" id="3">
+                <button onClick="popoutbio(this);" id="5">
                     <img src="images/TeamPhotos/Ying_Wan.jpg" class="increase">
                     <p id="name">Ying Wan</p>
                     <p>Deans Research Award 2021/22</p>
-                    <p>B.Sc. Co-op, Software Engineering</p>
+                    <p style="line-height: 0px;">B.Sc. Co-op, Software Engineering</p>
                 </button>
-                <div class="bio" id="3">
+                <div class="bio" id="5">
                     <div class="bio-content">
                         <img src="images/TeamPhotos/Ying_Wan.jpg">
                         <p>I’m a 2nd year Software Engineering student at the University of Alberta. I will be developing software for autonomous
@@ -157,48 +231,11 @@
                         <span class="close" onClick="exit();">&times;</span>
                         </div>
                 </div></li>
+                <br>
+                <br>
+                <br>
 
 
-
-            <li>
-                <button onClick="popoutbio(this);" id="4">
-                    <img src="images/TeamPhotos/NehalSekhon.jpg" class="increase">
-                    <p id="name">Nehal Sekhon</p>
-                    <p>Deans Research Award 2021/22</p>
-                    <p>B.Sc. Co-op, Computer Engineering</p>
-                </button>
-                <div class="bio" id="4">
-                    <div class="bio-content">
-                        <img src="images/TeamPhotos/NehalSekhon.jpg">
-                        <p>I am a second year Computer Engineering undergraduate student. I am currently working on laser wakefield acceleration
-                            simulations. Outside of school, I enjoy traveling and reading.</p>
-                        <span class="close" onClick="exit();">&times;</span>
-                        </div> 
-                </div></li>
-
-
-
-            <li>
-                <button onClick="popoutbio(this);" id="5">
-                    <img src="images/TeamPhotos/Benaka_Achar.jpg" class="increase">
-                    <p id="name">Benaka Achar</p>
-                    <p>Deans Research Award 2022</p>
-                    <p>B.Sc. Co-op, Software Engineering</p>
-                </button>
-                <div class="bio" id="5">
-                    <div class="bio-content">
-                        <img src="images/TeamPhotos/Benaka_Achar.jpg">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <span class="close" onClick="exit();">&times;</span>
-                    </div>
-                </div>
-            </li>
-            <br>
-            <br>
-            <br>
 
             <!-- ALUMNI -->
             <li>
@@ -207,40 +244,37 @@
                 </div>
             </li>
 
+
             <li>
                 <button onClick="popoutbio(this);" id="6">
-                    <img src="images/TeamPhotos/CarltonKim.jpg" class="increase">
-                    <p id="name">Carlton Kim</p>
-                    <p>MSc, Physics</p>
+                    <img src="images/TeamPhotos/Benaka_Achar.jpg" class="increase">
+                    <p id="name">Benaka Achar</p>
+                    <p>Deans Research Award 2022</p>
+                    <p style="line-height: 0px;">B.Sc. Co-op, Software Engineering</p>
                 </button>
-                <br>
                 <div class="bio" id="6">
                     <div class="bio-content">
-                        <img src="images/TeamPhotos/CarltonKim.jpg">
-                        <p>Master’s student under both Professor Amina Hussein and Professor Richard Sydora in the Fall of 21. My undergraduate
-                        work involved Particle-in-Cell simulations of laser wakefield acceleration in a high-density/low-energy regime. Aside
-                        from the enjoyable work of research and school in general, I am completely addicted to gaming but also do boxing and
-                        judo.</p>
+                        <img src="images/TeamPhotos/Benaka_Achar.jpg">
+                        <p>I am a second year Software Engineering undergraduate student. 
+                            I am currently working on Spectral Analysis of HED plasma conditions in laser-solid experiments.</p>
                         <span class="close" onClick="exit();">&times;</span>
                     </div>
                 </div>
             </li>
 
-
             <li>
                 <button onClick="popoutbio(this);" id="7">
-                    <img src="images/TeamPhotos/AranMcDowell.jpg" class="increase">
-                    <p id="name">Aran McDowel</p>
-                    <p>MSc, Physics</p>
+                    <img src="images/TeamPhotos/NehalSekhon.jpg" class="increase">
+                    <p id="name">Nehal Sekhon</p>
+                    <p>Deans Research Award 2021/22</p>
+                    <p style="line-height: 0px;">B.Sc. Co-op, Computer Engineering</p>
                 </button>
-                <br>
                 <div class="bio" id="7">
                     <div class="bio-content">
-                        <img src="images/TeamPhotos/AranMcDowell.jpg">
-                        <p>I am currently working on the THz Spectroscopy of LIBS plasma plumes and am supervised by Dr. Amina Hussein, in addition
-                        to Dr. Frank Hegmann. Before I joined the lab I completed my BSc in Honours Physics at the University of Calgary. My
-                        research interests include laser-matter interactions and communications. My hobbies include cooking, sketching, and
-                        amateur writing.</p>
+                        <img src="images/TeamPhotos/NehalSekhon.jpg">
+                        <p>I am a second year Computer Engineering undergraduate student. I am currently working on laser wakefield
+                            acceleration
+                            simulations. Outside of school, I enjoy traveling and reading.</p>
                         <span class="close" onClick="exit();">&times;</span>
                     </div>
                 </div>
@@ -252,7 +286,7 @@
                     <img src="images/TeamPhotos/AlvaroArce-Borkent.jpg" class="increase">
                     <p id="name">Alvaro Arce-Borkent</p>
                     <p>Co-op Student Winter 2021</p>
-                    <p>B.Sc. Mechanical Engineering</p>
+                    <p style="line-height: 0px;">B.Sc. Mechanical Engineering</p>
                 </button>
                 <div class="bio" id="8">
                     <div class="bio-content">
@@ -275,7 +309,7 @@
                     <img src="images/TeamPhotos/FatimaKeserwan.jpeg" class="increase">
                     <p id="name">Fatima Keserwan</p>
                     <p>NSERC USRA Summer 2021</p>
-                    <p>B.Sc. Civil & Environmental Engineering</p>
+                    <p style="line-height: 0px;">B.Sc. Civil & Environmental Engineering</p>
                 </button>
                 <div class="bio" id="9">
                     <div class="bio-content">
@@ -297,7 +331,7 @@
                     <img src="images/TeamPhotos/MaxStratmann.jpg" class="increase">
                     <p id="name">Max Stratmann Meouchi</p>
                     <p>Summer 2021</p>
-                    <p>B.Sc. Engineering Physics</p>
+                    <p style="line-height: 0px;">B.Sc. Engineering Physics</p>
                 </button>
                 <div class="bio" id="10">
                     <div class="bio-content">
@@ -315,7 +349,7 @@
                     <img src="images/TeamPhotos/Jamin.jpg" class="increase">
                     <p id="name">Jamin Achtymichuk</p>
                     <p>Summer Undergraduate Researcher</p>
-                    <p>B.Sc. Physics Honours</p>
+                    <p style="line-height: 0px;">B.Sc. Physics Honours</p>
                 </button>
                 <div class="bio" id="11">
                     <div class="bio-content">
@@ -335,7 +369,7 @@
                     <img src="images/TeamPhotos/LiamDroog.jpg" class="increase">
                     <p id="name">Liam Droog</p>
                     <p>NSERC USRA Summer 2021</p>
-                    <p>B.Sc. Physics</p>
+                    <p style="line-height: 0px;">B.Sc. Physics</p>
                 </button>
                 <div class="bio" id="12">
                     <div class="bio-content">
@@ -355,6 +389,19 @@
             <br>
         </ul>
         
+    </div>
+
+    <div class="contact">
+        <h1 style="padding-left: 0.5em; padding-top: 0.5em;">Get in Touch</h1>
+        <div class="row">
+            <div class="col" style="max-width: 20vw;">
+                <p style="padding-left: 1.5em">11-368 Donadeo ICE <br> 9211-116 St <br> Edmonton AB <br> T6G 2H5</p>
+            </div>
+            <div class="col">
+                <p style="padding-left: 1.5em">Amina Hussein, PhD <br> aehussein@ualberta.ca</p>
+            </div>
+        </div>
+        </p>
     </div>
 
 
