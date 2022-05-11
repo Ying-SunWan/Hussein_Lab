@@ -42,6 +42,7 @@
 .rows {
     padding-left: 220px;
 }
+
 .column {
     float: left;
     width: 33.33%;
@@ -54,11 +55,27 @@
     display: table;
 }
 
+.contactcolumn {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.contactrow::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 @media (max-width: 800px) {
     .rows {
         padding-left: 10vw;
     }
     .column {
         width: 100%;
+    }
+
+    .contactcolumn {
+        width: 45%;
     }
 }
