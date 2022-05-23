@@ -3,15 +3,16 @@
     font-size: 1em;
     background-color: black;
     color: white;
-    scroll-snap-align: start;
     padding: 0;
-    margin-left: 220px;
+    /* margin-left: 220px; */
     overflow: hidden;
+    position: relative;
+    z-index: 2;
 }
 
 @media (max-width: 800px) {
 .contact{
-    margin-left: 10vw;
+    margin-left: 5vw;
 }
 }
 
