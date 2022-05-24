@@ -1,51 +1,41 @@
+@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   padding: 0;
-}
+ }
 
-.navbar {
-  height: 110vh;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
+ .navbar {
+   height: 100vh;
+   width: 220px;
+   position: fixed;
+   z-index: 1;
   overflow: hidden;
-  /* background-color: rgba(116, 126, 137, 0.678); */
+  background-color: rgb(71, 69, 69);
+  color: black;
 }
-
 .navbar-links {
   height: 100%;
 }
-
 .navbar-links ul {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 10wh;
   padding: 0;
 }
-
 .navbar-links li {
   list-style: none;
 }
-
 .navbar-links li a {
   display: block;
   text-decoration: none;
-  /* color: white; */
-  color: rgb(189, 189, 189);
+  color: white;
   padding: 1rem;
 }
-
-/* .navbar-links li:hover {
+.navbar-links li:hover {
   background-color: #555;
-} */
-
-.navbar-links li a:hover {
-    color: rgb(87, 87, 87);
 }
-
 .toggle-button {
   position: absolute;
   top: .75rem;
@@ -56,7 +46,6 @@ body {
   width: 30px;
   height: 21px;
 }
-
 .toggle-button .bar {
   left: 0;
   height: 3px;
@@ -65,53 +54,46 @@ body {
   border-radius: 10px;
 }
 
-@media (max-width: 800px) {
-  .navbar {
-    height: 100vh;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 10vw;
+ @media (max-width: 800px) {
+   .navbar {
+     height: 100vh;
+     flex-direction: column;
+     align-items: flex-start;
+     width: 10vw;
   }
-
   .toggle-button {
     display: flex;
     left: 10px;
   }
-
   .navbar-links {
     display: none;
     width: 100%;
     height: 10vh;
   }
-
   .navbar-links ul {
     width: 100%;
     flex-direction: column;
   }
-
   .navbar-links ul li {
     text-align: center;
   }
-
   .navbar-links ul li a {
     padding: .5rem 1rem;
   }
-
   .navbar-links.active {
     display: flex;
   }
-
   .navbar.active {
-    width: 100%;
-    height: 100%;
-  }
-}
+     width: 100%;
+     height: 100%;
+   }
+ }
 
-@media (max-width: 480px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 13vw;
-    height: 110vh;
-  }
-}
+ @media (max-width: 480px) {
+   .navbar {
+     flex-direction: column;
+     align-items: flex-start;
+     width: 13vw;
+     height: 110vh;
+   }
+ } 
