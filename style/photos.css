@@ -1,5 +1,5 @@
 .pageheader {
-  /* margin-left: 200px; */
+  margin-left: 200px;
   height: 40vh;
   overflow: hidden;
   position: relative;
@@ -13,7 +13,6 @@
   font-size: 10vw;
   font-weight: 700;
   color: white;
-  margin-left: 100px;
 }
 
 .title {
@@ -60,8 +59,8 @@
 
 .gallery img {
   /* width: 50vh; */
-  width: 350px;
-  height: 350px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
   padding: 30px;
   margin-top: 1.5vh;
