@@ -1,0 +1,51 @@
+#projectspage {
+    padding-left: 22vh;
+    padding-top: 4.5vh;
+    height: 90vh;
+}
+
+.labintro {
+    font-size: 2.5vh;
+    padding-left: 3vh;
+    padding-right: 3vw;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 50%;
+    height: 70%;
+}
+
+.card {
+    margin-right: 1vh; 
+    margin-bottom: 1vh;
+    width: 39vw;
+    height: 35vh;
+    border: 2px solid rgb(208, 210, 214);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    border-radius: 10px;
+}
+
+.cardcontent {
+   display: flex;
+   flex-direction: column;
+   padding-right: 20px;
+   max-height: 32vh;
+   overflow-y: scroll;
+   /* justify-content: space-around; */
+}
+
+#title {
+    font-size: 2.5vh;
+    padding-left: 20px;
+    font-weight: 300
+}
+
+ul {
+    margin: 0;
+}

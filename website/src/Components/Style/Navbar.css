@@ -1,0 +1,53 @@
+.navlinks {
+    height: 100vh;
+    width: 12vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navcontent {
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.link {
+    text-decoration: none;
+    text-align: right;
+    /* border-right-style: solid; */
+    font-size: 3vh;
+    color: rgb(208,210,214);
+    display: block;
+    font-weight: bold;
+}
+
+.navlinks a:hover {
+    cursor: pointer;
+}
+
+.navborder {
+    border-right-style: solid;
+    border-width: 5px;
+    height: 16vh;
+    padding-right: 1vw;
+    padding: 0;
+    margin: 0;
+}
+
+.navtext {
+    padding-right: 2vh;
+    padding-top: 6vh;
+}
+
+.active {
+    color: black;
+    border-color: black;
+}
