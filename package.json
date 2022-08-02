@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "@material-ui/icons": "^4.11.3",
-    "ol": "^6.15.1",
-    "react-router-dom": "^6.3.0",
-    "react-router-hash-link": "^2.4.3",
-    "react-scroll": "^1.8.7"
-  }
-}
