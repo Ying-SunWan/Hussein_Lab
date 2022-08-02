@@ -18,7 +18,8 @@
 .cancel {
     position: relative;
     float: right;
-    padding: 2vw
+    padding: 2vw;
+    z-index: 5;
 }
 
 .right {

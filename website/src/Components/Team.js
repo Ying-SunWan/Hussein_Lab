@@ -64,6 +64,7 @@ const Modal = ({ clickedImg, clickedBio, clickedName, clickedPosition, clickedDe
     
     const handleClick = (e) => {
         setClickedImg(null)
+        console.log('kkk')
     }
 
     return (
