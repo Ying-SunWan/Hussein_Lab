@@ -45,6 +45,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    overflow: auto;
 }
 
 .memberinfo img {
@@ -54,6 +55,12 @@
     overflow: hidden;
 }
 
+.galleryimg img:hover {
+    height: 110%;
+    max-width: 60%;
+}
+
+
 .modaltext {
     max-height: 55vh;
     position: absolute;
@@ -61,24 +68,42 @@
     top: 0%;
     margin: 15px;
     display: block;
-    overflow-y: scroll;
 }
 
 .name {
     margin-bottom: 2px;
-    font-weight: 400;
+    font-weight: 800;
+    font-size: x-large;
 }
 
 .position {
     margin-top: 0;
+    margin-bottom: 2px;
     font-weight: 400;
 }
 
 .degree {
     font-weight: 400;
     margin-bottom: 5px;
+    margin-top: 0;
 }
 
 .bio {
     margin-top: 0;
+}
+
+.memberinfo::-webkit-scrollbar {
+    width: 10px;
+}
+
+.memberinfo::-webkit-scrollbar-track {
+    background: white;
+}
+
+.memberinfo::-webkit-scrollbar-thumb {
+    background: rgba(120, 120, 120, .6);
+}
+
+.memberinfo::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

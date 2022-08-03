@@ -27,8 +27,7 @@ img {
     width: 39vw;
     height: 35vh;
     border: 2px solid rgb(208, 210, 214);
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-    border-radius: 10px;
+    overflow: auto;
 }
 
 .cardcontent {
@@ -36,16 +35,35 @@ img {
    flex-direction: column;
    padding-right: 20px;
    max-height: 32vh;
-   overflow-y: scroll;
-   /* justify-content: space-around; */
 }
 
 #title {
-    font-size: 2.5vh;
+    font-size: 1.75em;
     padding-left: 20px;
-    font-weight: 300
+    font-weight: 300;
+    background-color: rgba(120, 120, 120, .6);
+    width: 100%;
+    height: 10%;
+    margin-top: 0;
+    text-align: center;
 }
 
 ul {
     margin: 0;
+}
+
+.card::-webkit-scrollbar {
+    width: 10px;
+}
+
+.card::-webkit-scrollbar-track {
+    background: white;
+}
+
+.card::-webkit-scrollbar-thumb {
+    background: rgba(120, 120, 120, .6);
+}
+
+.card::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

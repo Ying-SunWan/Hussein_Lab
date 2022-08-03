@@ -83,6 +83,7 @@ const Modal = ({ clickedImg, clickedBio, clickedName, clickedPosition, clickedDe
                     <p className='name'>{clickedName}</p>
                     <p className='position'>{clickedPosition}</p>
                     <p className='degree'>{clickedDegree}</p>
+                    <br />
                     <p className='bio'>{clickedBio}</p>
                 </div>
             </div>     

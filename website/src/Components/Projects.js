@@ -34,8 +34,7 @@ function ProjectCard(props) {
     return (
         <div className='card'>
             <div className='cardcontent'>
-                {/* <img src={props.image}></img> */}
-                <p id='title'>{props.title}</p>
+                  <p id='title'>{props.title}</p>  
                 <p id='description'>{props.description}</p>
             </div>
         </div>
