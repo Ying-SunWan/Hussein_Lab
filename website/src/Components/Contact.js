@@ -15,7 +15,7 @@ export default function Contact() {
 function Location() {
 
     return (
-        <div>
+        <div className='map'>
             <Map view={{ center: fromLonLat([-113.52975330348869, 53.5283420524856]), zoom: 17 }}>
                 <Layers>
                     <layer.Tile></layer.Tile>
@@ -28,14 +28,18 @@ function Location() {
 function Footer() {
     return (
         <div id='contactinfo'>
-            <h3>Amina Hussein, PHD</h3>
-            <h3>aehussein@ualberta.ca</h3>
+            <div className='contact'>
+                <h3>Amina Hussein, PhD</h3>
+                <h3>aehussein@ualberta.ca</h3>
+            </div>
             <br />
             <br />
-            <p>11-368 Donadeo ICE</p>
-            <p>9211-116 St</p>
-            <p>Edmonton, AB</p>
-            <p>T6G 2H5</p>
+            <div className='address'>
+                <p>11-368 Donadeo ICE</p>
+                <p>9211-116 St</p>
+                <p>Edmonton, AB</p>
+                <p>T6G 2H5</p>
+            </div>
         </div>
     )
 }

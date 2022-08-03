@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import team from './Data/TeamMembers'
 import './Style/Team.css'
 import { ImageList, ImageListItem } from '@mui/material'
+import useWindowDimensions from './hooks/useWindowDimensions';
 import { BsXLg } from 'react-icons/bs';
 
 
@@ -29,6 +30,8 @@ function TeamGallery() {
         setClickedDegree(degree)
     }
 
+    const { height, } = useWindowDimensions();
+
     return (
         <div>
             {clickedImg && <Modal 
@@ -40,8 +43,10 @@ function TeamGallery() {
                 setClickedImg={setClickedImg}/>}
             <div id='teampage'>
                 <ImageList
-                    sx = {{ width: 1170, height: 690 }}
-                    rowHeight = { 227 }
+                    className='gallery'
+                    sx = {{ width: '82.4vw', height: '84vh' }}
+                    // rowHeight = { 227 }
+                    rowHeight = { (height*0.84)/3-3 }
                     cols={6}
                     variant="quilted">
                     {team.map((item) => (
