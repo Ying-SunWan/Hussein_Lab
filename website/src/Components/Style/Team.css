@@ -55,11 +55,10 @@
     overflow: hidden;
 }
 
-.galleryimg img:hover {
-    height: 110%;
-    max-width: 60%;
+img {
+    width: 50%;
+    height: 70%;
 }
-
 
 .modaltext {
     max-height: 55vh;

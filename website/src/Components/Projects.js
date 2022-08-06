@@ -18,10 +18,14 @@ function ProjectContent() {
                 with applications in fundamental physics, industry and medicine. We collaborate broadly across the UofA, Canada and 
                 internationally.
             </p>
+            <br />
+            <p className='researchintro'>
+                Current research includes:
+            </p>
+            <hr />
             <div className='cards'>
                 {info.map(project => (
                     <ProjectCard
-                        // image={project.image}
                         title={project.title}
                         description={project.description} />
                 ))}
@@ -34,8 +38,9 @@ function ProjectCard(props) {
     return (
         <div className='card'>
             <div className='cardcontent'>
-                  <p id='title'>{props.title}</p>  
+                <p id='title'>{props.title}</p>  
                 <p id='description'>{props.description}</p>
+                <hr />
             </div>
         </div>
     )

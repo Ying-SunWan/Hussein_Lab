@@ -1,69 +1,20 @@
 #projectspage {
-    padding-left: 22vh;
+    padding-left: 25vh;
     padding-top: 4.5vh;
-    height: 90vh;
 }
 
 .labintro {
     font-size: 2.5vh;
-    padding-left: 3vh;
-    padding-right: 3vw;
 }
 
-.cards {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.researchintro {
+    font-size: 1.65em;
 }
 
-img {
-    width: 50%;
-    height: 70%;
-}
-
-.card {
-    margin-right: 1vh; 
-    margin-bottom: 1vh;
-    width: 39vw;
-    height: 35vh;
-    border: 2px solid rgb(208, 210, 214);
-    overflow: auto;
-}
-
-.cardcontent {
-   display: flex;
-   flex-direction: column;
-   padding-right: 20px;
-   max-height: 32vh;
+#description {
+    font-size: 1.25em;
 }
 
 #title {
-    font-size: 1.75em;
-    padding-left: 20px;
-    font-weight: 300;
-    background-color: rgba(120, 120, 120, .6);
-    width: 100%;
-    height: 10%;
-    margin-top: 0;
-    text-align: center;
-}
-
-ul {
-    margin: 0;
-}
-
-.card::-webkit-scrollbar {
-    width: 10px;
-}
-
-.card::-webkit-scrollbar-track {
-    background: white;
-}
-
-.card::-webkit-scrollbar-thumb {
-    background: rgba(120, 120, 120, .6);
-}
-
-.card::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    font-size: 1.5em;
 }
