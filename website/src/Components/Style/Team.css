@@ -1,5 +1,5 @@
 #teampage {
-    padding-left: 25vh;
+    padding-left: 220px;
     padding-right: 4vw;
     padding-top: 6.5vh;
     position: relative;
@@ -105,4 +105,10 @@ img {
 
 .memberinfo::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+@media (max-width: 1000px) {
+    #teampage {
+        padding-left: 70px;
+    }
 }

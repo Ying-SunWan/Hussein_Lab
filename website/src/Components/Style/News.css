@@ -1,8 +1,7 @@
 #newspage {
-    padding-left: 21vh;
+    padding-left: 220px;
     padding-top: 3vh;
     padding-bottom: 10vh;
-    max-height: 90vh;
 }
 
 .subsectiontitle {
@@ -11,4 +10,10 @@
 
 vertical-timeline-element-icon svg {
     height: 2px;
+}
+
+@media (max-width: 1000px) {
+    #newspage {
+        padding-left: 70px;
+    }
 }

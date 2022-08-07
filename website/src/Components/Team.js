@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import team from './Data/TeamMembers'
 import './Style/Team.css'
 import { ImageList, ImageListItem } from '@mui/material'
-import useWindowDimensions from './hooks/useWindowDimensions';
+import useWindowDimensions from './Hooks/useWindowDimensions';
 import { BsXLg } from 'react-icons/bs';
 
 

@@ -1,10 +1,11 @@
 #homepage {
-    padding-left: 25vh;
+    padding-left: 220px;
     padding-top: 5vh;
     overflow: hidden;
     height: 90vh;
     padding-bottom: 0;
     margin-bottom: 0;
+    position: sticky;
 }
 
 .title {
@@ -30,4 +31,10 @@
     width: 82vw;
     height: 68vh;
     margin-top: 0;
+}
+
+@media (max-width: 1000px) {
+    #homepage {
+        padding-left: 70px;
+    }
 }

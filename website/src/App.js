@@ -6,10 +6,12 @@ import Home from "./Components/Home";
 import News from "./Components/News.js";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
+import Accessibility from "./Components/Accessibility";
 
 export default function App() {
     return (
         <div>
+            {/* <Accessibility /> */}
             <Navbar />
             <Home />
             <Projects />

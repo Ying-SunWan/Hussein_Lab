@@ -1,23 +1,23 @@
 const entries = [
     {
-        title: "njuniujn",
-        date: "July 1, 2022",
-        description: "hiuhuihuih",
+        title: "Title",
+        date: "MM-DD-YYYY",
+        description: "description",
     },
     {
-        title: "njuniujn",
-        date: "June 1, 2022",
-        description: "hiuhuihuih",
+        title: "Title",
+        date: "MM-DD-YYYY",
+        description: "description",
     },
     {
-        title: "njuniujn",
-        date: "June 1, 2022",
-        description: "hiuhuihuih",
+        title: "Title",
+        date: "MM-DD-YYYY",
+        description: "description",
     },
     {
-        title: "njuniujn",
-        date: "June 1, 2022",
-        description: "hiuhuihuih",
+        title: "Title",
+        date: "MM-DD-YYYY",
+        description: "description",
     },
 ]
 

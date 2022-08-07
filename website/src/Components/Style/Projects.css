@@ -1,5 +1,5 @@
 #projectspage {
-    padding-left: 25vh;
+    padding-left: 220px;
     padding-top: 4.5vh;
 }
 
@@ -17,4 +17,10 @@
 
 #title {
     font-size: 1.5em;
+}
+
+@media (max-width: 1000px) {
+    #projectspage {
+        padding-left: 70px;
+    }
 }
