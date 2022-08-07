@@ -1,20 +1,33 @@
 #projectspage {
     padding-left: 25vh;
     padding-top: 4.5vh;
+    padding-right: 3vw;
 }
 
 .labintro {
-    font-size: 2.5vh;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
-.researchintro {
-    font-size: 1.65em;
-}
-
-#description {
-    font-size: 1.25em;
+.cardcontent{
+    display: flex;
+    margin-top: 3vh;
 }
 
 #title {
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+#description ul {
+    margin-top: 0;
+}
+
+#image {
+    height: 25vh;
+    width: 25vw;
+    object-fit: cover;
 }
