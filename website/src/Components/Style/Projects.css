@@ -26,3 +26,14 @@
     margin-top: 0;
 }
 
+#image {
+    height: 25vh;
+    width: 25vw;
+    object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+    #projectspage {
+        padding-left: 70px;
+    }
+}
