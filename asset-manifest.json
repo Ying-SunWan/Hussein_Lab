@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Hussein_Lab/static/css/main.a219e65c.css",
-    "main.js": "/Hussein_Lab/static/js/main.a3a73408.js",
+    "main.js": "/Hussein_Lab/static/js/main.44179ff9.js",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/Hussein_Lab/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
     "index.html": "/Hussein_Lab/index.html",
     "main.a219e65c.css.map": "/Hussein_Lab/static/css/main.a219e65c.css.map",
-    "main.a3a73408.js.map": "/Hussein_Lab/static/js/main.a3a73408.js.map"
+    "main.44179ff9.js.map": "/Hussein_Lab/static/js/main.44179ff9.js.map"
   },
   "entrypoints": [
     "static/css/main.a219e65c.css",
-    "static/js/main.a3a73408.js"
+    "static/js/main.44179ff9.js"
   ]
 }
