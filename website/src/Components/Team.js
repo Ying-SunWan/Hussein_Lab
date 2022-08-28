@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import team from './Data/TeamMembers'
 import './Style/Team.css'
 import { ImageList, ImageListItem } from '@mui/material'
+import useMediaQuery from '@mui/material/useMediaQuery';
 import useWindowDimensions from './Hooks/useWindowDimensions';
 import { BsXLg } from 'react-icons/bs';
 
@@ -31,6 +32,7 @@ function TeamGallery() {
     }
 
     const { height, } = useWindowDimensions();
+    const lg = useMediaQuery('(min-width : 1000px)');
 
     return (
         <div>
@@ -44,10 +46,10 @@ function TeamGallery() {
             <div id='teampage'>
                 <ImageList
                     className='gallery'
-                    sx = {{ width: '82.4vw', height: '84vh' }}
+                    sx={{ width: '82.4vw', height: '84vh', }}
                     // rowHeight = { 227 }
-                    rowHeight = { (height*0.84)/3-3 }
-                    cols={6}
+                    rowHeight={ lg ? ((height*0.84)/3-3) : ((height*0.84)/5-5) }
+                    cols={ lg ? 6 : 2 }
                     variant="quilted">
                     {team.map((item) => (
                         <ImageListItem 
