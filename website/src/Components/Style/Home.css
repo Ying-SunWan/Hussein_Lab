@@ -1,0 +1,40 @@
+#homepage {
+    padding-left: 220px;
+    padding-top: 5vh;
+    overflow: hidden;
+    height: 90vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: sticky;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+}
+
+#titlename {
+    font-size: 10vh;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+#subtitle {
+    font-size: 4vh;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1vh;
+}
+
+.headerimage {
+    width: 82vw;
+    height: 68vh;
+    margin-top: 0;
+}
+
+@media (max-width: 1000px) {
+    #homepage {
+        padding-left: 70px;
+    }
+}
